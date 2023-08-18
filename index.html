@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Grupo 3">
+    <meta name="description" content="Proyecto Universidad Nacional de Santiago del Estero">
+    <meta name="keywords" content="universidad, estudiantes, UNSE">
+    <title>UNSE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="icon" href="./assets/logoUNSE.png">
+
+    <script defer src="https://kit.fontawesome.com/a48a581e8f.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bgCustom">
+            <div class="container">
+                <a href="./index.html"><img id="navImg" src="./assets/iconoUNSE.png"
+                        alt="Logo de la universidad"></a>
+                <div class="d-flex">
+                    <a href="./pages/LogIn.html"><img class="navPersonIcon"
+                            src="https://cdn.iconscout.com/icon/free/png-256/free-person-1767893-1502146.png"
+                            alt="Icono de usuario para log in"></a>
+                    <button class="navbar_toggler btnCustom" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse justify-content-end collapse navbarCustom" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 linksNav gap-3">
+                        <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="./pages/noticias.html">Noticias</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="./pages/acercade.html">Somos UNSE</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="./pages/ContactUs.html">Contacto</a></li>
+                        <li class="nav-item navLogin"><a class="nav-link fw-semibold fs-5" href="./pages/LogIn.html">Iniciar Sesion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="position-relative">
+                <img id="bannerImg" src="./assets/banner.webp" alt="inteligencia artificial">
+                <div class="position-absolute top-0" id="bannerGradient"></div>
+            </article>
+
+            <article id="bannerArticle" class="container text-end">
+                <h1 id="bannerTitle" class="animate__animated animate__fadeInRight">SOMOS UNSE</h1>
+                <h2 id="bannerText" class="animate__animated animate__fadeInRight animate__delay-1s">Tu futuro en nuestras manos</h2>
+            </article>
+        </section>
+        <section class="container-fluid" id="facultyContainer">
+
+            <article class="container border-bottom border-3">
+                <h2 class="p-3 text-light">FACULTADES</h2>
+            </article>
+
+            <article class="row justify-content-center">
+                <div class="col-md-6 col-sm-12 d-flex flex-column text-light p-5 facultyCard">
+                    <div class="facultyCardImg rounded-top">
+                        <img src="./assets/ingenieria.webp" alt="Facultad de Ingenieria">
+                    </div>
+                    <div class="p-5 facultyCardTextContainer rounded-bottom">
+                        <p class="fs-3">Facultad de Ingenieria</p>
+                        <p class="facultyCardText">La Facultad de Ingeniería es un centro académico destacado que ofrece programas de estudio innovadores 
+                            en diversas disciplinas técnicas. Preparamos a nuestros estudiantes para enfrentar desafíos del mundo real a través 
+                            de enfoques orientados a la investigación.</p>
+                        <div class="d-flex gap-2 align-items-center">
+                            <a class="btnFacultyCard d-flex align-items-center" href="./pages/error404.html">
+                                <i class="fa-solid fa-arrow-right btnArrow"></i>
+                            </a>
+                            <p class="m-0">Ver más</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 d-flex flex-column text-light p-5 facultyCard">
+                    <div class="facultyCardImg rounded-top">
+                        <img src="./assets/economia.webp" alt="Facultad de Economía">
+                    </div>
+                    <div class="p-5 facultyCardTextContainer rounded-bottom">
+                        <p class="fs-3">Facultad de Economía</p>
+                        <p class="facultyCardText">La Facultad de Economía es un referente académico reconocido, ofreciendo programas de estudio sólidos en teoría económica y 
+                            análisis financiero. Nuestros estudiantes adquieren habilidades fundamentales para comprender y abordar los desafíos económicos 
+                            actuales.</p>
+                        <div class="d-flex gap-2 align-items-center">
+                            <a class="btnFacultyCard d-flex align-items-center" href="./pages/error404.html">
+                                <i class="fa-solid fa-arrow-right btnArrow"></i>
+                            </a>
+                            <p class="m-0">Ver más</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 d-flex flex-column text-light p-5 facultyCard">
+                    <div class="facultyCardImg rounded-top">
+                        <img src="./assets/bioquimica.webp" alt="Facultad de Bioquímica">
+                    </div>
+                    <div class="p-5 facultyCardTextContainer rounded-bottom">
+                        <p class="fs-3">Facultad de Bioquímica</p>
+                        <p class="facultyCardText">La Facultad de Bioquímica es líder en la formación de profesionales especializados en el estudio de la química de los seres vivos. 
+                            Nuestros programas ofrecen conocimientos teóricos y prácticos para la investigación y el análisis de 
+                            biomoléculas y procesos bioquímicos.</p>
+                        <div class="d-flex gap-2 align-items-center">
+                            <a class="btnFacultyCard d-flex align-items-center" href="./pages/error404.html">
+                                <i class="fa-solid fa-arrow-right btnArrow"></i>
+                            </a>
+                            <p class="m-0">Ver más</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 d-flex flex-column text-light p-5 facultyCard">
+                    <div class="facultyCardImg rounded-top">
+                        <img src="./assets/arquitectura.webp" alt="Facultad de Arquitectura">
+                    </div>
+                    <div class="p-5 facultyCardTextContainer rounded-bottom">
+                        <p class="fs-3">Facultad de Arquitectura</p>
+                        <p class="facultyCardText">La Facultad de Arquitectura es una institución líder en la formación de arquitectos creativos y visionarios. Nuestros programas 
+                            integran conocimientos teóricos y prácticos para desarrollar habilidades en diseño arquitectónico, planificación urbana y 
+                            sostenibilidad.</p>
+                        <div class="d-flex gap-2 align-items-center">
+                            <a class="btnFacultyCard d-flex align-items-center" href="./pages/error404.html">
+                                <i class="fa-solid fa-arrow-right btnArrow"></i>
+                            </a>
+                            <p class="m-0">Ver más</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="container-fluid">
+            <article class="container border-bottom border-3">
+                <h2 class="p-3">NUESTRO CAMPUS</h2>
+            </article>
+
+            <article class="container-fluid d-flex justify-content-center my-5 py-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/x0Z6xuwmkjA" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </article>
+        </section>
+
+        <section class="container-fluid py-5 bgNumbers">
+                <h3 class="fs-1 py-3 text-center text-light">LA UNIVERSIDAD EN NUMEROS</h3>
+
+                <article class="row d-flex justify-content-center row-gap-3 py-5">
+                    <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center">
+                        <p class="statisticsNumbers">12k</p>
+                        <p class="fs-5 text-center text-light">Estudiantes graduados</p>
+                    </div>
+            
+                    <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center">
+                        <p class="statisticsNumbers">7</p>
+                        <p class="fs-5 text-center text-light">Programas de doctorado</p>
+                    </div>
+            
+                    <div class="col-md-4 col-sm-12 d-flex flex-column align-items-center">
+                        <p class="statisticsNumbers">15</p>
+                        <p class="fs-5 text-center text-light">Programas de master</p>
+                    </div>
+                </article>        
+        </section>
+
+        <section class="container-fluid py-3" id="commentsContainer">
+            <article class="container border-bottom border-3">
+                <h2 class="p-3 text-light">Experimenta la UNSE</h2>
+            </article>
+
+            <article class="row row-cols-1 row-cols-md-3 g-4 m-3">
+                <div class="col p-5">
+                    <div class="card">
+                        <img src="./assets/alumno1.webp" class="card-img-top" alt="alumno1">
+                        <div class="card-body">
+                        <h5 class="card-title">José, 20 años</h5>
+                        <p class="card-text">La UNSE ofrece una amplia variedad de oportunidades de investigación, actividades extracurriculares y recursos para el desarrollo profesional, 
+                            brindando así una experiencia educativa enriquecedora y completa</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-5">
+                    <div class="card">
+                        <img src="./assets/alumno2.webp" class="card-img-top" alt="alumno2">
+                        <div class="card-body">
+                            <h5 class="card-title">María, 21 años</h5>
+                            <p class="card-text">La UNSE ofrece una amplia variedad de oportunidades de investigación, actividades extracurriculares y recursos para el desarrollo profesional, 
+                                brindando así una experiencia educativa enriquecedora y completa</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-5">
+                    <div class="card">
+                        <img src="./assets/alumno3.webp" class="card-img-top" alt="alumno3">
+                        <div class="card-body">
+                            <h5 class="card-title">Luis, 19 años</h5>
+                            <p class="card-text">La UNSE ofrece una amplia variedad de oportunidades de investigación, actividades extracurriculares y recursos para el desarrollo profesional, 
+                                brindando así una experiencia educativa enriquecedora y completa</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="container-fluid">
+
+            <article class="container border-bottom border-3">
+                <h2 class="p-3">NOTICIAS</h2>
+            </article>
+
+            <article class="m-5 row row-gap-3">
+                <div class="col-sm-12 col-lg-4 position-relative d-flex justify-content-center">
+                    <img class="newsImg" src="./assets/noticia1.webp" alt="Proyecto MarsGreen">
+                    <div class="newsGradient position-absolute top-0"></div>
+                    <div class="position-absolute bottom-0 text-light">
+                        <p class="fs-3">MarsGreen</p>
+                        <div class="d-flex gap-3">
+                            <a class="btnNews d-flex align-items-center" href="./pages/noticias.html">
+                                <i class="fa-solid fa-arrow-right btnNewsArrow"></i>
+                            </a>
+                            <p>Conoce el nuevo proyecto <br> de la UNSE en Marte</p>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-sm-12 col-lg-4 position-relative d-flex justify-content-center">
+                    <img class="newsImg" src="./assets/noticia2.webp" alt="Regulaciones de la IA">
+                    <div class="newsGradient position-absolute top-0"></div>
+
+                    <div class="position-absolute bottom-0 text-light">
+                        <p class="fs-3">IA: Nuevas regulaciones</p>
+                        <div class="d-flex gap-3">
+                            <a class="btnNews d-flex align-items-center" href="./pages/error404.html">
+                                <i class="fa-solid fa-arrow-right btnNewsArrow"></i>
+                            </a>
+                            <p>Las nuevas leyes que <br>regulan la IA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4 position-relative d-flex justify-content-center">
+                    <img class="newsImg" src="./assets/noticia3.jpeg" alt="Noticia sobre el proyecto MarsGreen">
+                    <div class="newsGradient position-absolute top-0"></div>
+
+                    <div class="position-absolute bottom-0 text-light">
+                        <p class="fs-3">Nuevo Campus</p>
+                        <div class="d-flex gap-3">
+                            <a class="btnNews d-flex align-items-center" href="./pages/error404.html">
+                                <i class="fa-solid fa-arrow-right btnNewsArrow"></i>
+                            </a>
+                            <p>Inauguración del nuevo<br>campus de la UNSE</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="d-flex justify-content-center text-center" id="secContainer">
+            <article class="boxInfo">
+                <ol>
+                    <li>
+                        <h2 class="fw-semibold">Seguridad y marca</h2>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="./pages/error404.html">Notificar Copyright</a>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="./pages/error404.html">Informar Problema de Seguridad</a>
+                    </li>
+                </ol>
+            </article>
+            <article class="boxInfo">
+                <ol>
+                    <li>
+                        <h2 class="fw-semibold">Sitio web</h2>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="./pages/error404.html">Accesibilidad</a>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="./pages/error404.html">Accesibilidad Digital</a>
+                    </li>
+                </ol>
+            </article>
+            <article class="boxInfo">
+                <ol>
+                    <li>
+                        <h2 class="fw-semibold">Ponerse en contacto</h2>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="./pages/error404.html">Mapas y Direcciones</a>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="./pages/error404.html">En Contacto con la UNSE</a>
+                    </li>
+                </ol>
+            </article>
+            <article id="socialLinks">
+                <p class="ms-3">© Universidad Nacional de Santiago del Estero</p>
+                <a href="./index.html"><img id="" src="/assets/iconoUNSE.png"
+                        alt="Logo Universidad UNSE"></a>
+                <ol class="text-center">
+                    <ul>
+                        <a href="https://www.facebook.com/UNSEoficial" target="_blank">Facebook</a>
+                        <a href="https://www.instagram.com/unseoficial/?hl=es" target="_blank">Instagram</a>
+                        <a href="https://www.youtube.com/channel/UCN4TjpS0mDcLcExuv2zA-5g" target="_blank">Youtube</a>
+                    </ul>
+                </ol>
+            </article>
+        </section>
+    </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Grupo 3">
+        <meta name="description" content="Proyecto Universidad Nacional de Santiago del Estero">
+        <meta name="keywords" content="universidad, estudiantes, UNSE">
+        <title>UNSE</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="/styles/common.css">
+        <link rel="stylesheet" href="/styles/news.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="icon" href="../assets/logoUNSE.png">
+        <script defer src="https://kit.fontawesome.com/a48a581e8f.js" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    </head>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bgCustom">
+            <div class="container">
+                <a href="./index.html"><img id="navImg" src="/assets/iconoUNSE.png"
+                        alt="Logo de la universidad"></a>
+                <div class="d-flex">
+                    <a href="/pages/error404.html"><img class="navPersonIcon"
+                            src="https://cdn.iconscout.com/icon/free/png-256/free-person-1767893-1502146.png"
+                            alt="Icono LogIn"></a>
+                    <button class="navbar_toggler btnCustom" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse justify-content-end collapse navbarCustom" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 linksNav gap-3">
+                        <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="./acercade.html">Somos UNSE</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="./ContactUs.html">Contacto</a></li>
+                        <li class="nav-item navLogin"><a class="nav-link fw-semibold fs-5" href="./SignUp.html">Iniciar Sesion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container m-auto">
+            <article class="container mt-5">
+                <h1>NOTICIAS</h1>
+                <div id="newsLine"></div>
+            </article>
+            <article class="container">
+                <div>
+                    <h2 class="fs-1">MarsGreen: un proyecto prometedor</h2>
+                    <h4 class="fst-italic">"Con cada avance logrado, los investigadores están más cerca de convertir a Marte en un lugar habitable y autosuficiente."</h4>
+                </div>
+                <div class="mt-3 d-inline-flex"> 
+                    <img class="rounded-circle" id="newsAuthor" src="../assets/newsAuthor.jpeg" alt="Juan Perez">
+                    <div class="m-3">
+                        <h5>Juan Perez</h5>
+                        <h6>Investigador UNSE</h6> 
+                    </div>
+                </div>
+            </article>
+            <article class="container my-5">
+                <div id="newsImgContainer">
+                    <img class="w-50 h-50" id="newsImg" src="../assets/noticia1.webp" alt="MarsGreen">
+                </div>
+                <p class="newsTextAlignment" id="newsTextWrap">La Facultad de Ingenieria de la UNSE anunció el exitoso proyecto de siembra de plantas en Marte.
+                    En un hito histórico para la exploración espacial, la UNSE ha logrado llevar a cabo con éxito la siembra de plantas en Marte. 
+                    Utilizando tecnología pionera y años de investigación, un equipo de científicos logró establecer un ecosistema autosostenible en
+                    el Planeta Rojo.
+                    El proyecto, conocido como "MarsGreens", tiene como objetivo principal estudiar la viabilidad de la vida vegetal en Marte y 
+                    explorar la posibilidad de una futura colonización humana. Las plantas seleccionadas, cuidadosamente adaptadas para sobrevivir 
+                    en las condiciones extremas del planeta, han demostrado una sorprendente capacidad para crecer y prosperar en suelo marciano 
+                    modificado. Estas plantas no solo proporcionan un suministro de oxígeno vital, sino que también desempeñan un papel crucial en la generación 
+                    de alimentos frescos y sostenibles para los futuros colonos marcianos. Además, se espera que su capacidad para absorber dióxido 
+                    de carbono ayude a estabilizar la atmósfera y contribuya a la futura terraformación de Marte.
+                    El éxito de este proyecto revolucionario ha abierto nuevas posibilidades en la exploración espacial y ha generado un optimismo 
+                    renovado sobre la capacidad de la humanidad para adaptarse y prosperar en entornos extraterrestres. Los científicos ya están 
+                    trabajando en la siguiente fase del proyecto, que incluye la expansión de la siembra de plantas en Marte y la exploración de 
+                    otras formas de vida en el planeta. Sin duda, esta increíble hazaña marca un hito trascendental en nuestra comprensión y conquista del espacio, allanando el camino 
+                    hacia un futuro donde los seres humanos podrían establecerse y vivir en otros mundos.
+                    Un grupo de destacados científicos e ingenieros ha lanzado un ambicioso proyecto de investigación destinado a desarrollar un 
+                    sistema de cultivo de plantas en Marte. Con el objetivo de establecer una colonia sostenible en el Planeta Rojo, este proyecto 
+                    busca superar los desafíos únicos que presenta el entorno marciano.
+                    El equipo multidisciplinario está trabajando en la creación de una estructura de cultivo aislada y autónoma que garantice el 
+                    suministro de agua, nutrientes y luz solar a las plantas. Se están explorando diversas técnicas agrícolas, como la hidroponía
+                    y la aeroponía, adaptadas a las condiciones marcianas para maximizar la eficiencia y el rendimiento.
+                    Además, se están llevando a cabo investigaciones para desarrollar nuevas variedades de plantas capaces de resistir las bajas
+                    temperaturas, la radiación cósmica y la atmósfera marciana. Los científicos también están estudiando la posibilidad de 
+                    utilizar microorganismos simbióticos para mejorar el crecimiento de las plantas y aumentar la producción de oxígeno.
+                    Este emocionante proyecto, respaldado por agencias espaciales internacionales y entidades privadas, representa un paso 
+                    crucial hacia la exploración y colonización sostenible de Marte. Los hallazgos y avances obtenidos tendrán implicaciones 
+                    no solo para futuras misiones tripuladas, sino también para la agricultura en entornos adversos en la Tierra, como regiones
+                    áridas y desérticas.
+                    Con cada avance logrado, los investigadores están más cerca de convertir a Marte en un lugar habitable y autosuficiente. 
+                    Este proyecto sin precedentes marca un hito en la búsqueda de expandir los límites de la humanidad más allá de nuestro 
+                    planeta natal y nos acerca un paso más a la posibilidad de establecer una presencia duradera en Marte.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="d-flex justify-content-center text-center" id="secContainer">
+            <article class="boxInfo">
+                <ol>
+                    <li>
+                        <h2 class="fw-semibold">Seguridad y marca</h2>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Notificar Copyright</a>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Informar Problema de Seguridad</a>
+                    </li>
+                </ol>
+            </article>
+            <article class="boxInfo">
+                <ol>
+                    <li>
+                        <h2 class="fw-semibold">Sitio web</h2>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Accesibilidad</a>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Accesibilidad Digital</a>
+                    </li>
+                </ol>
+            </article>
+            <article class="boxInfo">
+                <ol>
+                    <li>
+                        <h2 class="fw-semibold">Ponerse en contacto</h2>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Mapas y Direcciones</a>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">En Contacto con la UNSE</a>
+                    </li>
+                </ol>
+            </article>
+            <article id="socialLinks">
+                <p class="ms-3">© Universidad Nacional de Santiago del Estero</p>
+                <a href="./index.html"><img id="" src="/assets/iconoUNSE.png"
+                        alt="Logo Universidad UNSE"></a>
+                <ol class="text-center">
+                    <ul>
+                        <a href="https://www.facebook.com/UNSEoficial" target="_blank">Facebook</a>
+                        <a href="https://www.instagram.com/unseoficial/?hl=es" target="_blank">Instagram</a>
+                        <a href="https://www.youtube.com/channel/UCN4TjpS0mDcLcExuv2zA-5g" target="_blank">Youtube</a>
+                    </ul>
+                </ol>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

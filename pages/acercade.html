@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es6U7">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Grupo 3">
+    <meta name="description" content="Proyecto Universidad Nacional de Santiago del Estero">
+    <meta name="keywords" content="universidad, estudiantes, UNSE">
+    <title>UNSE</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="../styles/acercaDe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="../assets/logoUNSE.png">
+
+    <script defer src="https://kit.fontawesome.com/a48a581e8f.js" crossorigin="anonymous"></script>
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bgCustom">
+          <div class="container">
+              <a href="../index.html"><img id="navImg" src="../assets/iconoUNSE.png"
+                      alt="Logo de la universidad"></a>
+              <div class="d-flex">
+                  <a href="./LogIn.html"><img class="navPersonIcon"
+                          src="https://cdn.iconscout.com/icon/free/png-256/free-person-1767893-1502146.png"
+                          alt="Icono de usuario para log in"></a>
+                  <button class="navbar_toggler btnCustom" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                      aria-expanded="true" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+              </div>
+              <div class="navbar-collapse justify-content-end collapse navbarCustom" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 linksNav gap-3">
+                    <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="../index.html">Inicio</a></li>
+                      <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="./noticias.html">Noticias</a></li>
+                      <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="./ContactUs.html">Contacto</a></li>
+                      <li class="nav-item navLogin"><a class="nav-link fw-semibold fs-5" href="./LogIn.html">Iniciar Sesion</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container-fluid" id="AboutUsContainer">
+
+          <h2 id="titleAboutUs"> SOMOS UNSE</h2>
+
+        <article class="row" id="infoContainer">
+          <div class="col-sm-12 col-md-6">
+            <h3> TU FUTURO EN NUESTRAS MANOS </h3>
+            <p> Somos una de las primeras universidades privadas del país con más de 58 años de trayectoria. Hemos formado más de 12.000 graduados 
+              en múltiples disciplinas y contamos con un plantel de profesores de destacada trayectoria.
+              Brindamos una amplia oferta de Tecnicaturas, Carreras de Grado y Posgrado, en modalidades tanto Presencial como Virtual.
+              A su vez ofrecemos muchos beneficios para acompañar la vida universitaria: orientación vocacional, tutorías personalizadas durante toda la carrera, programas de pasantías y un portal de empleo para facilitar el traspaso a la vida laboral. 
+            </p>
+          </div>  
+          <div class="col-sm-12 col-md-6">
+            <img src="../assets/noticia3.jpeg" alt="Foto campus universitario">
+          </div>
+        </article>
+      </section>
+  
+      <section id="team">
+        <article id="teamContainer">
+          <img src="../assets/Facundo.jpg" alt="Facundo">
+          <img src="../assets/Fabricio.jpg" alt="Fabricio">
+          <img src="../assets/Juliana.jpg" alt="Juliana">
+          <img src="../assets/Sofia.jpg" alt="Sofia">
+        </article>
+
+        <!-- team grid mobile -->
+        <article id="teamContainerMobile">
+          <div class="container-fluid row">
+            <div class="col-6">
+              <img class="w-100" src="../assets/Facundo.jpg" alt="Facundo">
+            </div>
+            <div class="col-6">
+              <img class="w-100" src="../assets/Fabricio.jpg" alt="Fabricio">
+            </div>
+            <div class="col-6">
+              <img class="w-100" src="../assets/Juliana.jpg" alt="Juliana">
+            </div>
+            <div class="col-6">
+              <img class="w-100" src="../assets/Sofia.jpg" alt="Sofia">
+            </div>
+          </div>
+        </article>
+  
+
+      </section>
+
+      <section class="container-fluid" id="teamHistory">
+        <h2>NUESTRA HISTORIA</h2>
+          
+          <p> LA UNSE nació en 1964 como una institución no elitista y de compromiso socio-comunitario. Entiende a la educación como un proceso 
+            que parte del estudiante pero que es facilitado e incentivado por el docente. 
+            Fue fundada por un grupo excepcional de intelectuales. Su motivación fue llevar la innovación, la excelencia y la apertura 
+            al mundo al ámbito universitario. 
+            El espíritu visionario marcó a la Universidad desde el comienzo: su oferta académica incorporó desde un principio carreras 
+            que estaban poco desarrolladas o no existían en otras casas de estudio. </p>
+          <div  id="teamHistoryPhrase">
+            <p> “Creamos la universidad con el fin de que después de nosotros muchos más puedan crear sus propios sueños. Para que puedan 
+              crear todo aquello que desean. Como la educación innovadora, accesible y mirando al futuro. Para, de esta forma, crear una sociedad
+              mejor."  </p>
+          </div>
+    </section>
+
+    </main>
+    <footer>
+      <section class="d-flex justify-content-center text-center" id="secContainer">
+        <article class="boxInfo">
+            <ol>
+                <li>
+                    <h2 class="fw-semibold">Seguridad y marca</h2>
+                </li>
+                <li>
+                    <a class="fw-medium" href="./pages/error404.html">Notificar Copyright</a>
+                </li>
+                <li>
+                    <a class="fw-medium" href="./pages/error404.html">Informar Problema de Seguridad</a>
+                </li>
+            </ol>
+        </article>
+        <article class="boxInfo">
+            <ol>
+                <li>
+                    <h2 class="fw-semibold">Sitio web</h2>
+                </li>
+                <li>
+                    <a class="fw-medium" href="./pages/error404.html">Accesibilidad</a>
+                </li>
+                <li>
+                    <a class="fw-medium" href="./pages/error404.html">Accesibilidad Digital</a>
+                </li>
+            </ol>
+        </article>
+        <article class="boxInfo">
+            <ol>
+                <li>
+                    <h2 class="fw-semibold">Ponerse en contacto</h2>
+                </li>
+                <li>
+                    <a class="fw-medium" href="/pages/error404.html">Mapas y Direcciones</a>
+                </li>
+                <li>
+                    <a class="fw-medium" href="/pages/error404.html">En Contacto con la UNSE</a>
+                </li>
+            </ol>
+        </article>
+        <article id="socialLinks">
+            <p class="ms-3">© Universidad Nacional de Santiago del Estero</p>
+            <a href="./index.html"><img id="" src="/assets/iconoUNSE.png"
+                    alt="Logo Universidad UNSE"></a>
+            <ol class="text-center">
+                <ul>
+                    <a href="https://www.facebook.com/UNSEoficial" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/unseoficial/?hl=es" target="_blank">Instagram</a>
+                    <a href="https://www.youtube.com/channel/UCN4TjpS0mDcLcExuv2zA-5g" target="_blank">Youtube</a>
+                </ul>
+            </ol>
+        </article>
+    </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="UNSE, Universidad Nacional, Santiago del Estero, Facultad de Medicina, Facultad de Ciencias Exactas, Facultad de Agrimensura y Agronomia, Universidad Publica, Estudio Universitario">
+    <meta name="author" content="Grupo 3 - Comision 63i">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+    <link rel="icon" href="../assets/logoUNSE.png">
+    <title>UNSE - Universidad Nacional de Santiago Del Estero</title>
+</head>
+<body class="FormPages">
+    <header>
+        <nav class="navbar navbar-expand-lg bgCustom">
+            <div class="container">
+                <a href="./index.html"><img id="navImg" src="/assets/iconoUNSE.png"
+                        alt="Logo de la universidad"></a>
+                <div class="d-flex">
+                    <a href="/pages/error404.html"><img class="navPersonIcon"
+                            src="https://cdn.iconscout.com/icon/free/png-256/free-person-1767893-1502146.png"
+                            alt="Icono LogIn"></a>
+                    <button class="navbar_toggler btnCustom" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse justify-content-end collapse navbarCustom" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 linksNav gap-3">
+                        <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="/pages/noticias.html">Noticias</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold fs-5" href="./">Somos UNSE</a></li>
+                        <li class="nav-item navLogin"><a class="nav-link fw-semibold fs-5" href="/pages/LogIn.html">Iniciar Sesion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section class="contactPage"> 
+        <article class="contactBox">
+            <h2 class="contactTitle fw-semibold text-center">Contactanos</h2>
+            <form>
+                <p>
+                    <label for="Nombre Completo">Nombre Completo</label>
+                    <input type="text" placeholder="Ingrese su Nombre Completo">
+                </p>
+                <p>
+                    <label for="Email">Email</label>
+                    <input type="email" placeholder="Ingrese su Email" required>
+                </p>
+                <p>
+                    <label for="Telefono">Telefono</label>
+                    <input type="tel" placeholder="Ingrese su Telefono"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required>
+                </p>
+                <p>
+                    <label for="Asunto">Asunto</label>
+                    <input type="text" placeholder="Ingrese el Asunto">
+                </p>
+            </form>
+                <p>
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea name="Mensaje" rows="3"></textarea>
+                </p>
+            <div id="divButtonEnviar">
+                <input id="bottonEnviar" type="submit" value="Enviar">
+            </div>
+            <h3 id="orContactHere">O contactanos por:</h3>
+            <div class="buttonContainer">
+                <button class="buttonLinks">
+                    <a href="/pages/error404.html">
+                        <span class="fa-brands fa-instagram"></span>Instagram
+                    </a>
+                </button>
+                <button class="buttonLinks">
+                    <a href="/pages/error404.html">
+                        <span class="fa-brands fa-facebook"></span>Facebook
+                    </a>
+                </button>
+                <button class="buttonLinks">
+                    <a href="/pages/error404.html">
+                        <span class="fa-brands fa-twitter"></span>Twitter
+                    </a>
+                </button>
+            </div>
+        </article>
+            <article class="infoBox">
+                <h2 class="contactTitle fw-semibold">Mas Informacion</h2>
+                <ul>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i> Av. Belgrano Sur 1912, Santiago del Estero
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i> 0385 450-9500 ext. 5
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope-open-text"></i> UNSE@gmail.com
+                    </li>
+                </ul>
+                <p>"Una Universidad pluralista, inclusiva, reformista y autónoma, con presencia territorial e integración con la sociedad."</p>
+                <p>- Universidad Nacional de Santiago del Estero</p>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6856.337624944205!2d-64.251223!3d-27.801532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b4df913f0ac29%3A0x6d7da993ed25f896!2sUniversidad%20Nacional%20de%20Santiago%20del%20Estero!5e1!3m2!1ses-419!2sus!4v1688274684728!5m2!1ses-419!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div> 
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="d-flex justify-content-center text-center" id="secContainer">
+            <article class="boxInfo">
+                <ol>
+                    <li>
+                        <h2 class="fw-semibold">Seguridad y marca</h2>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Notificar Copyright</a>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Informar Problema de Seguridad</a>
+                    </li>
+                </ol>
+            </article>
+            <article class="boxInfo">
+                <ol>
+                    <li>
+                        <h2 class="fw-semibold">Sitio web</h2>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Accesibilidad</a>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Accesibilidad Digital</a>
+                    </li>
+                </ol>
+            </article>
+            <article class="boxInfo">
+                <ol>
+                    <li>
+                        <h2 class="fw-semibold">Ponerse en contacto</h2>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">Mapas y Direcciones</a>
+                    </li>
+                    <li>
+                        <a class="fw-medium" href="/pages/error404.html">En Contacto con la UNSE</a>
+                    </li>
+                </ol>
+            </article>
+            <article id="socialLinks">
+                <p class="ms-3">© Universidad Nacional de Santiago del Estero</p>
+                <a href="./index.html"><img id="" src="/assets/iconoUNSE.png"
+                        alt="Logo Universidad UNSE"></a>
+                <ol class="text-center">
+                    <ul>
+                        <a href="https://www.facebook.com/UNSEoficial" target="_blank">Facebook</a>
+                        <a href="https://www.instagram.com/unseoficial/?hl=es" target="_blank">Instagram</a>
+                        <a href="https://www.youtube.com/channel/UCN4TjpS0mDcLcExuv2zA-5g" target="_blank">Youtube</a>
+                    </ul>
+                </ol>
+            </article>
+        </section>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/51d080d62a.js" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,165 @@
+
+#AboutUsContainer{
+  background-color: var(--primary-color);
+  padding-top: 5rem;
+}
+
+#titleAboutUs {
+  /* background-color: #383737; */
+  color: var(--terciary-color);
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 5em;
+}
+
+#infoContainer{
+  background-color: var(--darkgrey);
+  color: var(--terciary-color);
+  text-align: justify;
+  padding:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#infoContainer img{
+  width: 100%;
+}
+
+
+/* TEAM */
+
+#team{
+  padding: 2rem;
+  background-color: var(--primary-color);
+  /* display: flex;
+  justify-content: center; */
+}
+
+#teamContainer{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 430px;
+  padding-right: 0.5rem;
+  margin: auto;
+}
+
+#teamContainer img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+#teamContainer img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+#teamContainerMobile img{
+  margin:0.5rem;
+}
+
+#teamHistory{
+  background-color: var(--primary-color);
+  padding: 2rem;
+  color: var(--terciary-color);
+  text-align: justify;
+}
+
+#teamHistoryPhrase{
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  font-style: italic;
+  max-width: 50%;
+  margin: auto;
+}
+
+
+@media (width<=576px) {
+  #teamContainer{
+    display: none;
+  }
+
+  #teamHistoryPhrase{
+    max-width: 100%;
+  }
+}
+
+@media (width > 576px){
+  #teamContainerMobile{
+    display: none;
+  }
+}
+
+/* _____________________________________________________________ */
+/* .banner h2 span {
+
+  color: white;
+
+} */
+
+/* .sec {
+  background-color: var(--darkgrey);
+  padding:2rem;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec.content {
+
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.mxw800px {
+  max-width: 800px;
+
+  margin:  0 auto;
+}
+
+.div-con-fondo{
+  background-image: url(img\ucv_NoticiaAmpliada.jpg );
+  }
+
+
+  .div img
+{
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+.div img
+  {
+
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: 5s ease
+  }
+
+  .div img :hover {
+
+    cursor: crosshair;
+    width: 300x;
+    opacity: 1;
+    filter: contrast(1205);
+
+  }
+
+
+
+  footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  } */

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root{
+        --primary-color: #010D0C;
+        --secondary-color:  #8a181b;
+        --terciary-color: #ffffff;
+        --grey: #4C4C4D;
+        --darkgrey: #303335;
+        --numbers: #F3945D;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+
+main {
+    padding-top: 72.5px;
+}
+#newsLine{
+    width: 75vw;
+    height: 0.8rem;
+    background-color: var(--primary-color);
+}
+
+
+#newsAuthor{
+    width: 6rem;
+    min-width: 4rem;
+    height: auto;
+}
+
+.newsTextAlignment{
+text-align: justify;
+}
+
+#newsAuthor{
+    min-width: 6rem;
+    height: auto;
+}
+
+@media (width >= 576px) {
+    #newsImg{
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+    
+    #newsTextWrap{
+        text-indent: 2em;
+        float: none;
+    }
+}
+
+@media (width < 576px) {
+    #newsImgContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    #newsImg{
+        width: 20rem !important; 
+        margin-bottom: 1rem;
+    }
+}
+

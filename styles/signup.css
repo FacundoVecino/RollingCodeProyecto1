@@ -1,0 +1,174 @@
+main {
+    padding: 72.5px;
+}
+
+/*-----------Pages------------*/
+
+.FormPages {
+    margin: 0;
+    padding: 0;
+    background: url(/assets/ryan-jacobson-cXUOQWdRV4I-unsplash.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+/*-----------Inicia Sesión------------*/
+
+.login-box {
+    width: 90%;
+    max-width: 548px;
+    height: auto;
+    margin: 50px auto;
+    background-color: var(--terciary-color);
+    opacity: 80%;
+    box-sizing: border-box;
+    border-radius: 28px;
+    padding: 28px;
+}
+
+.login-title{
+    margin-bottom: 30px;
+}
+
+.login-box input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid var(--primary-color);
+    outline: none;
+}
+
+#botton-login{
+    margin-top: 20px;
+    border-radius: 15px;
+    background: var(--primary-color);
+    color: var(--terciary-color);
+    width: 100%;
+    height: 52px;
+}
+
+#botton-login:hover {
+    background-color: var(--primary-color);
+    transition: 0.5s ease;
+}
+
+.login-box form a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #222;
+    margin-right: 28px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buttonLinks {
+    border-radius: 4px;
+    background-color: #FFFFFF91;
+    border: none;
+    flex-grow: 1;
+    height: 40px;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+}
+
+.buttonLinks:hover {
+    background-color: #c8c8c8ac;
+    transition: 0.5s ease;
+}
+
+.buttonLinks a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    margin-right: 20px;
+    width: 102px;
+}
+
+.buttonLinks a span {
+    margin-right: 15px;
+    margin-top: 3px;
+    width: 17px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+#orSign {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+/*-----------Registrarse------------*/
+
+.signUpBox {
+    width: 90%;
+    max-width: 548px;
+    height: auto;
+    margin: 50px auto;
+    background-color: var(--terciary-color);
+    opacity: 80%;
+    box-sizing: border-box;
+    border-radius: 28px;
+    padding: 28px;
+}
+
+.signUpTitle{
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+.signUpBox input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid var(--darkgrey);
+    outline: none;
+}
+
+#bottonSignUp{
+    margin-top: 20px;
+    border-radius: 15px;
+    background:var(--darkgrey);
+    color: var(--terciary-color);
+    width: 100%;
+    height: 52px;
+}
+
+#bottonSignUp:hover {
+    background-color: var(--primary-color);
+    transition: 0.5s ease;
+}
+
+.signUpBox form a {
+    font-size: 12px;
+    line-height: 20px;
+    color:var(--darkgrey);
+    margin-right: 28px;
+    display: flex;
+    justify-content: space-between;  
+} 
+
+
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: #0e0e0e;
+}
